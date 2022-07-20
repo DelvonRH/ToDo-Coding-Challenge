@@ -1,0 +1,102 @@
+* {
+  color: #fff;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  color: white;
+}
+
+.wrapper {
+  margin: 100px;
+  max-width: 90%;
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+h1,
+h2,
+p {
+  color: #adabab;
+}
+
+.wrapper .inputfield {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.mx-auto {
+  width: 85%;
+}
+
+.d-flex {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#listItem {
+  padding: 4px;
+}
+
+#listItem span {
+    border: black 2px solid;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+
+#listItem span p {
+  color: black;
+  margin: auto;
+}
+
+.inputfield input {
+  width: 85%;
+  height: 100%;
+  border: 3px solid;
+  font-size: 20px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+
+
+#todo-row span {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.wrapper button {
+  width: 100px;
+  background-color: gray;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.unstrike {
+  text-decoration: none;
+}
+
+span {
+  padding: 0 0.5rem;
+}
+
