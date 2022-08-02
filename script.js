@@ -15,7 +15,7 @@ const addTask = (ev) => {
     const taskDiv = document.createElement("div");
     const taskInput = document.createElement("span");
 
-    taskDiv.setAttribute('id',"listItem")
+    taskDiv.setAttribute('id',"listItem");
     taskDiv.className = "trash";
    
     const pEl = document.createElement("p")
@@ -46,3 +46,4 @@ function deleteTask()
 };
 
 document.querySelector("button").addEventListener('click', addTask);
+
